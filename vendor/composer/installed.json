@@ -1,0 +1,48 @@
+{
+    "packages": [
+        {
+            "name": "blockchyp/blockchyp-php",
+            "version": "v2.11.0",
+            "version_normalized": "2.11.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blockchyp/blockchyp-php.git",
+                "reference": "cf0b1f194d66ba8150d7b9ca1d0d89bf9b6b8fd5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/blockchyp/blockchyp-php/zipball/cf0b1f194d66ba8150d7b9ca1d0d89bf9b6b8fd5",
+                "reference": "cf0b1f194d66ba8150d7b9ca1d0d89bf9b6b8fd5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "time": "2021-10-08T22:26:32+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "BlockChyp\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "BlockChyp PHP SDK",
+            "homepage": "https://www.blockchyp.com/",
+            "support": {
+                "issues": "https://github.com/blockchyp/blockchyp-php/issues",
+                "source": "https://github.com/blockchyp/blockchyp-php/tree/v2.11.0"
+            },
+            "install-path": "../blockchyp/blockchyp-php"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
